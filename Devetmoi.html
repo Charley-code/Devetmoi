@@ -5,8 +5,7 @@
         <title>Dev et moi</title>
         <link rel="stylesheet" href="Devetmoi.css">
         <script src="https://kit.fontawesome.com/462b9e339a.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.gstatic.com"> 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        
     </head>
     <body>
         <header>
@@ -17,31 +16,32 @@
             </nav>
         </header>
         <section>
-            <div>
-                <img src="images/backgroung_image.jpg" alt="photo">
-                <img src="images/logo_long.png" alt="petitlogo">
-                <h1>Agence de graphisme</h1>
+            <div id="main-image">
+                <div id="conteneur">
+                    <img src="images/logo_long.png" alt="petitlogo" class="logo">
+                    <h1 id="titre" class="item">Agence de graphisme</h1>
+                </div>
             </div>
             <div>
-                <div><p>Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs</p></div>
-                <div>
-                    <div>
+                <div id="firstext"><p>Mon petit graphisme est une agence de graphisme qui aide les entreprises à<br /> créer des visuels attractifs</p></div>
+                <div id="conteneur2">
+                    <div class="graphic">
                         <img src="images/graphic-design.png" alt="logos">
                         <h2>Graphisme</h2>
                         <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visuels dont vous serez fiers.</p>
                     </div>
-                    <div>
+                    <div class="strategie">
                         <img src="images/strategie.png" alt="logos">
                         <h2>Stratégie</h2>
                         <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos objectifs et nous nous adaptons à vos besoins.</p>
                     </div>
-                    <div>
+                    <div class="illustration">
                         <img src="images/illustrations.png" alt="logos">
                         <h2>Illustration</h2>
-                        <p>Nos graphistes vous proposerons des illustrations 100% originales.</p>
+                        <p>Nos graphistes vous proposerons des<br /> illustrations 100% <br />originales.</p>
                     </div>
                 </div>
-                <div>
+                <div id="lastext">
                     <p>"Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l'écoute des besoins et m'ont permis de renouveler complètement la carte de mon restaurant."</p>
                     <p>Amandine, restauratrice</p>
                 </div>
@@ -50,29 +50,31 @@
         <footer>
             <div><p>Mon petit graphisme - Agence de graphisme basée à Paris</p></div>
             <div>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="twi"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="fb"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="insta"><i class="fab fa-instagram"></i></a>
             </div>
-            <div>
+        <div id="conteneur3">
+            <div id="acces">
                 <p>accès rapides</p>
                 <ul>
-                    <li>Accueil</li>
-                    <li>Contact</li>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            <div>
-                <p>A propos</p>
+            <div id="mentions">
+               <p>A propos</p>
                 <ul>
-                    <li>Données personnelles</li>
-                    <li>Mentions légales</li>
-                    <li>Cookies</li>
+                    <li><a href="#">Données personnelles</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Cookies</a></li>
                 </ul>
             </div>
-            <div>
+            <div id="coordonee">
                 <p>Coordonnées</p>
-                <address>10 Quai de la Charente</br>75019 Paris</br>01 23 45 67 89</address>
+                <address>10 Quai de la Charente<br />75019 Paris<br />01 23 45 67 89</address>
             </div>
+        </div>
         </footer>
     </body>
 </html>
